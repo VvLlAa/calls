@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --font-size14: 14px;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+body {
+  background-color: rgba(241, 244, 249, 1);
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.react-datepicker-wrapper input {
+  width: 70px;
+  border: none;
+  outline: none;
+}
+

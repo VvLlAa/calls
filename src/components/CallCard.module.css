@@ -1,0 +1,83 @@
+td {
+    height: 65px;
+    border-bottom: 1px solid rgba(234, 240, 250, 1);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+td:first-child {
+    padding-left: 40px;
+}
+
+td:last-child {
+    padding-right: 40px;
+}
+
+.callCard {
+    width: 100%;
+    padding: 12px;
+}
+
+.callCard:hover {
+    background-color: rgba(212, 223, 243, 0.17);
+    cursor: pointer;
+}
+
+.tdInOut {
+ width: 54px;
+}
+
+.tdDate {
+    width: 88px;
+}
+
+.tdPersonName {
+    width: 129px;
+}
+
+.tdPersonName img {
+    width: 32px;
+}
+
+.tdStatus {
+    width: 325px;
+}
+
+.tdFromNumber {
+    width: 214px;
+}
+
+.tdGrade {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(461px + 110px);
+}
+
+.statusGreat {
+    display: inline;
+    padding: 6px 8px;
+    border: 1px solid rgba(40, 168, 121, 1);
+    border-radius: 4px;
+    background-color: rgba(219, 248, 239, 1);
+    color: rgba(40, 168, 121, 1);
+}
+
+.statusFine {
+    display: inline;
+    padding: 8px 6px;
+    border: 1px solid rgba(173, 191, 223, 1);
+    border-radius: 4px;
+    background-color: rgba(216, 228, 251, 1);
+    color: rgba(18, 41, 69, 1);
+}
+
+.statusBadly {
+    display: inline;
+    padding: 8px 6px;
+    border: 1px solid rgba(234, 26, 79, 1);
+    border-radius: 4px;
+    background-color: rgba(254, 233, 239, 1);
+    color: rgba(234, 26, 79, 1);
+}

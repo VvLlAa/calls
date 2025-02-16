@@ -1,0 +1,93 @@
+.dateFilter {
+    position: relative;
+}
+
+.arrowIconLeft {
+    transform: rotate(90deg);
+}
+
+.arrowIconLeft:hover {
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(7477%) hue-rotate(236deg) brightness(93%) contrast(113%);
+}
+
+.arrowIconRight {
+    transform: rotate(-90deg);
+}
+
+.arrowIconRight:hover {
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(7477%) hue-rotate(236deg) brightness(93%) contrast(113%);
+}
+
+.dateDropdown {
+    position: absolute;
+    top: 120%;
+    right: 0;
+    background: rgba(255, 255, 255, 1);
+    width: 204px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    z-index: 100;
+    font-size: var(--font-size14);
+}
+
+.active {
+    color: #015EF5;
+}
+
+.dropdownContent {
+    display: flex;
+    align-items: center;
+    padding: 7px 12px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.dropdownContent:hover {
+    background-color: #DEE4FF;
+}
+
+.dropdownContent:first-child {
+    padding-top: 11px;
+}
+
+.dropdownContent:last-child{
+    padding-bottom: 11px;
+}
+
+.dateCustom {
+    padding: 7px 12px;
+}
+
+.date {
+    display: flex;
+    padding: 0 12px;
+    color: #002CFB;
+    font-size: var(--font-size14);
+}
+
+.date img {
+    margin-right: 8px;
+}
+
+.date:hover {
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(7477%) hue-rotate(236deg) brightness(93%) contrast(113%);
+}
+
+.blockInputs {
+    display: flex;
+    padding: 7px 12px 20px;
+}
+
+.blockInputs img {
+    margin-left: 6px;
+}
+
+.indicateTheDate {
+    padding: 7px 12px 0;
+    height: 30px;
+    color: #000;
+}
+
+.customDatepicker::placeholder {
+    color: #ADBFDF;
+}
